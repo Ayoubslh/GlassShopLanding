@@ -1,0 +1,240 @@
+
+@media screen and (max-width: 768px) {
+    .item-cards {
+      grid-template-columns: repeat(3, 15%);
+      grid-template-rows: repeat(1,100%);
+      grid-gap: 10px; 
+    }
+    .About{
+        .About{
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    .credits{
+        font-size: 30px;
+    }
+}
+*{
+ margin: 0;
+ padding: 0;
+
+ 
+}
+
+.head{
+    display: flex;
+ 
+    justify-content: space-between;
+    overflow: hidden;
+    width: 100%;
+    height: 80px;
+   z-index: 100;
+    box-shadow: 1px 1px 20px 2px;
+    
+}
+
+.list{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap ;
+    margin-top: 25px;
+    float :right;
+    list-style: none;
+}
+.Link{
+    padding: 10px;
+   
+}
+
+
+.Logo{
+   display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin-top: -39px ;
+    height:150px;
+    width:150px;
+    
+    
+}
+.cont{
+    display: block;
+}
+.Hero{
+    top: 0;
+  position: absolute;
+  display:block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  position: absolute;
+  margin-top:100px;
+  min-height: 800px;
+  width: 100%;
+  border: 2px solid black;
+  background-image: url('blackglass.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  z-index: -1;
+  
+
+   
+}
+.txt{
+    color:white;
+    font-size: 50px;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.Article{
+   display: block;
+   position:absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(117, 111, 111);
+  color: white;
+  transition-duration: 2000ms;
+
+  
+}
+
+.Article:hover{
+
+    background: rgb(255, 255, 255);
+    color:black;
+
+}
+.Article:active{
+    background:rgb(74, 71, 71) ;
+}
+
+.footer {
+     color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    
+    bottom: 0; 
+  }
+.credits
+{
+    margin-top: 10px;
+    
+}
+.items{
+    display: block;
+    bottom: 0;
+    overflow: visible;
+}
+.item-cards{
+    display: grid;
+   
+    grid-template-columns: repeat(3,1fr);
+    grid-row: repeat(1,30%);
+    grid-gap: 10px;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 12%;
+    overflow: scroll;
+    align-content: center;
+    align-self: center;
+  
+    
+}
+
+li{
+    min-height: 300px;
+}
+.items{
+    text-align: center;
+    font-size:60px;
+    display: block;
+    margin-top: 110vh;
+}
+.ITems{
+    
+    text-align: center;
+    font-size:60px;
+    display: inline;
+   
+
+}
+#card1 {
+   
+    width: 200px;
+    border: 5px solid black;
+    background-image: url('blackglass.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1000ms;
+    
+}
+#card2{
+   
+    width: 200px;
+    border: 5px solid black;
+    background-image: url('rayban.jpeg');
+    background-position: center;
+    background-size: cover;
+    transition: 1000ms;
+}
+#card3{
+  
+    width: 200px;
+    background-image: url('Homme Lunettes de vue à montures géométriques.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    transition: 1000ms;
+}
+.buy{
+   border-radius: 30%;
+    height: 50px;
+    width: 70px;
+    margin-left: 50%;
+    border: none;
+    mix-blend-mode: multiply;
+    transition-duration: 1000ms;
+}
+.buy:hover{
+    background-color: #000000;
+    color: #ffffff;
+    opacity: 1;
+}
+.About{
+    
+    margin-top: 100px;
+    
+    text-align: center;
+    margin-bottom: 100px;
+    /*display: none;*/
+    
+}
+.Abt{
+    font-size: 60px;
+}
+.pres{
+    
+    font-size: 25px;
+    text-align: justify;
+
+}
+
+
+
+
+
+    
