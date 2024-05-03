@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
     .item-cards {
       grid-template-columns: repeat(3, 15%);
       grid-template-rows: repeat(1,100%);
@@ -7,12 +7,15 @@
     }
     .About{
         .About{
-            font-size: 30px;
+            font-size: 20px;
             text-align: center;
         }
     }
     .credits{
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .list{
+        overflow: scroll;
     }
 }
 *{
@@ -61,7 +64,7 @@
     display: block;
 }
 .Hero{
-    
+    top: 0;
   position: absolute;
   display:block;
   top: 50%;
@@ -69,9 +72,9 @@
   transform: translate(-50%, -50%);
   border: 1px solid black;
   position: absolute;
-  margin-top:150px;
+  margin-top:100px;
   min-height: 800px;
-  width: 100%;
+  min-width: 100%;
   border: 2px solid black;
   background-image: url('blackglass.jpg');
   background-repeat: no-repeat;
