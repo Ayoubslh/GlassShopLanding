@@ -93,10 +93,10 @@
       
       .pres{
         
-        font-size: 15px;
+        font-size: 20px !important;
       }
-      .footer{
-        font-size: 10px;
+      .footer {
+        font-size: 10px !important;
       }
 }
 
@@ -306,13 +306,14 @@
     /*display: none;*/
     
 }
+
 .Abt{
-    font-size: xx-large;
+   font-size: 46px;
     text-align: center;
 }
 .pres{
     
-    
+    font-size: 30px;
     text-align: justify ;
 
 }
