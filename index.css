@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 746px) {
+@media screen and (max-width: 600px) {
     .item-cards {
       grid-template-columns: repeat(3, 15%);
       grid-template-rows: repeat(1,100%);
@@ -22,6 +22,49 @@
        left: 50%;
        transform: translate(-50%, -50%);
     }
+    .Hero{
+        min-width: 200px;
+        min-height: 400px;
+        background-size: cover;
+    }
+    .Menubar .Menu{
+        margin-top: 25px;
+        opacity: 1;
+        display: inline;
+        padding: 1px;
+        z-index: 100;
+      }
+      .Menubar .list{
+        margin-left: -30px;
+        width: 200px;
+        height: 1200px;
+        box-shadow: 2px 2px 5px black;
+        position:absolute;
+        display: none;
+      }
+      .Menubar .link{
+        display: block;
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px 0;
+        border-bottom: 1px solid #000;
+      }
+      .Menubar .link:hover{
+        color: #dca7a7;
+        background-color: #fff;
+      }
+      .Menu{
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+      }
+      .Menubar:active  .list{
+        
+        display: block;
+       
+      }
 }
 *{
  margin: 0;
@@ -40,6 +83,9 @@
    z-index: 100;
     box-shadow: 1px 1px 20px 2px;
     
+}
+.Menu{
+    opacity: 0;
 }
 
 .list{
@@ -74,10 +120,10 @@
   display:block;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -45%);
+  transform: translate(-50%, -50%);
   border: 1px solid black;
   position: absolute;
-  margin-top:110px;
+  margin-top:100px;
   min-height: 800px;
   min-width: 100%;
   border: 2px solid black;
