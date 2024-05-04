@@ -9,80 +9,86 @@
         
             font-size: 20px;
             text-align: center;
-        
+       
     }
     .credits{
-        font-size: 40px;
+        font-size: 20px;
+    }
+    .Link{
+        margin: 0px;
+        padding: 0px;
     }
     
-    .head{
-        max-height: 20px;
-    }
     .Article{
         top: 90%;
        left: 50%;
        transform: translate(-50%, -50%);
-       z-index: 0;
+       z-index: -1;
     }
     .Hero{
         min-width: 200px;
         min-height: 400px;
         background-size: cover;
     }
-    
     .Menubar{
         display: inline;
-        
 
     }
     .Menubar .Menu{
         margin-top: 25px;
         opacity: 1;
+        
         padding: 1px;
         
-    }
-    .Menubar .list{
-        margin-left: -150px;
-        width: 100%;
+      }
+      .Menubar .list{
+      margin-left: -100px;
+        width: 200px;
+        height: auto;
         background-color: #fff;
+        
         box-shadow: 2px 2px 5px black;
         position:absolute;
         display: none;
-        
         z-index: 1;
-    }
-    .Menubar .Link{
-        display:block;
+      }
+      .Menubar .Link{
+        display: block;
         text-decoration: none;
+          margin:5px;
         color: #000;
         font-size: 18px;
         font-weight: 500;
-       
-        
-       
+        padding: 10px 0;
         border-bottom: 1px solid #000;
-    }
-    .Menubar .Link:hover{
-        color: #fff;
-        background-color: #525050;
-    }
-      
-    .Menu{
+      }
+      .Menubar .Link:hover{
+        color: #ffffff;
+        background-color: #aaa6a6;
+      }
+      .Menu{
         border: none;
         background-color: transparent;
         cursor: pointer;
-    }
-    .Menubar:hover  .list{
+      }
+      .Menubar:hover  .list{
         
         display: block;
        
-    }
-    .buy{
+      }
+      #card1{
+       height: 100px;
+      }
+      #card2{
+        height: 100px;
+      }
+      #card3{
+        height: 100px;
+
+      }
+      .buy{
         z-index: -1;
-    }
-    .footer{
-        font-size: 15px;
-    }
+      }
 }
 *{
  margin: 0;
@@ -97,7 +103,7 @@
     justify-content: space-between;
     overflow: hidden;
     width: 100%;
-   max-height: 80px;
+    height: 80px;
    z-index: 100;
     box-shadow: 1px 1px 20px 2px;
     
@@ -105,10 +111,7 @@
 .Menu{
     opacity: 0;
 }
-.Menubar{
-    display: flex;
-   max-height: 20px;
-}
+
 .list{
     font-size: 20px;
     display: flex;
@@ -117,10 +120,8 @@
     float :right;
     list-style: none;
 }
-li{
-   margin: 5px;
-   padding: 0;
-   height: 20px;
+.Link{
+    padding: 10px;
    
 }
 
@@ -236,18 +237,21 @@ li{
     font-size:60px;
     display: block;
     margin-top: 110vh;
+    
 }
 .ITems{
     
     text-align: center;
     font-size:60px;
     display: inline;
+    
    
 
 }
 #card1 {
    
     width: 200px;
+    height: 300px;
     border: 5px solid black;
     background-image: url('blackglass.jpg');
     background-position: center;
@@ -257,7 +261,7 @@ li{
     
 }
 #card2{
-   
+    height: 300px;
     width: 200px;
     border: 5px solid black;
     background-image: url('rayban.jpeg');
@@ -266,7 +270,7 @@ li{
     transition: 1000ms;
 }
 #card3{
-  
+    height: 300px;
     width: 200px;
     background-image: url('Homme Lunettes de vue à montures géométriques.jpg');
     background-position: center;
