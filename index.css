@@ -217,6 +217,7 @@
 .items{
     display: block;
     bottom: 0;
+    margin-top:20px;
     overflow: visible;
 }
 .item-cards{
