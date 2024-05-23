@@ -27,7 +27,7 @@
     }
     .Hero{
         min-width: 200px;
-        min-height: 300px !important;
+       height: auto !important;
         background-size: cover;
     }
     .Menubar{
